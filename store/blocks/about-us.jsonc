@@ -67,8 +67,8 @@
     
       "tab-list.item#home2": {
         "props": {
-          "tabId": "electronics",
-          "label": "Electronics"
+          "tabId": "instagram",
+          "label": "Instagram"
         }
     },
 
@@ -83,10 +83,10 @@
     
     "tab-content.item#home2": {
         "children": [
-          "rich-text#home2"
+          "iframe"
         ],
         "props": {
-          "tabId": "electronics"
+          "tabId": "instagram"
         }
     },
 
@@ -98,11 +98,11 @@
         }
     },
     
-    "rich-text#home2": {
+    "iframe": {
         "props": {
-          "text": "Texto para Electronics",
-          "textPosition": "CENTER",
-          "font": "t-heading-3"
+          "src": "https://www.instagram.com/p/B37Zfd6FobU/embed",
+          "width": 800,
+          "height": 1000
         }
     }
 }
